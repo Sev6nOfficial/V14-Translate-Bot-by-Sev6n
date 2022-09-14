@@ -1,8 +1,5 @@
 const { EmbedBuilder, ActionRowBuilder, ButtonBuilder, ApplicationCommandType, ButtonStyle, SelectMenuBuilder } = require('discord.js');
-const translate = require("@iamtraction/google-translate")///npm i @iamtraction/google-translate
-//translate command in trenny
-//just give some credit or copyright
-//https://trenny.tk/support.html
+const translate = require("@iamtraction/google-translate")
 module.exports = {
 	name: 'translate',
   description: "Translates any text into English",
